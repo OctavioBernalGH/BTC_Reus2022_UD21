@@ -20,7 +20,7 @@ public class Geometria {
 
 	//Métodos propios de clase Geometria
 	//metodo area del cuadrado
-	public int areacuadrado(int n1){
+	public  int areacuadrado(int n1){
 		return n1*n1;
 		}
 	
