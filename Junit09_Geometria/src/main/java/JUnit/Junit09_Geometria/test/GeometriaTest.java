@@ -60,6 +60,9 @@ class GeometriaTest {
 		assertEquals(esperado, GeoTestDefault.getNom());
 		esperado = "Default";
 		assertEquals(esperado, GeoTestVacio.getNom());
+		
+		// Validamos la creacción de objetos
+		assertEquals(GeoTest1.getClass(),(Geometria.class));
 	}
 
 	@Test
